@@ -1,2 +1,2 @@
-# Python-tests
-This is a collection of some little python-written programs. Contributions are allowed
+# Simple Interest Solver
+This solves simple interest step by step and accurately. Not GUI enabled
