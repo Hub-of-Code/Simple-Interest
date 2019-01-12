@@ -1,11 +1,17 @@
-class simple_interest:
-	def sol():
-		p = int(input("Enter Principal"))
-		r = int(input("Enter Rate"))
-        t = int(input("Enter Time"))
-        print("Simple Interest (SI) = (PTR) / 100")
-        print("                  SI  = ("+ p + " * " + t + " * " + r + ") / 100")
-        print("                  SI  = (" + P*t*r + ") / 100")
-        print("                  SI  = (" + ((p*t*r)/100))
-        res = ((p*t*r)/100)
-        print("Therefore, Simple Interest (SI) = " + res)
+class simpleinterest:
+      a = float(input("Enter Principal"))
+      b = float(input("Enter Rate"))  
+      c = float(input("Enter Time"))
+      p = str(a)
+      t = str(c)
+      r = str(b)
+      mul = a * b * c
+      res = str(mul)
+      cal = mul/100
+      fres = str(cal)
+      print("Simple Interest (SI)= (PTR)/100")
+      print("                 SI = ("+ p + " * "+ t + " * " + r + ") / 1000")
+      print("                 SI = (" + res + ") / 100")
+      print("                 SI = " + fres)
+      print("Therefore, SI = "+ fres)
+        
